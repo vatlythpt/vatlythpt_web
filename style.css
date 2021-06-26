@@ -1,0 +1,25 @@
+.nav-bar {
+    background-color: gray;
+}
+ul {
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+li {
+    padding: 10px;
+    align-items: center;
+    float: right;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+li:hover {
+    background-color: black;
+}
