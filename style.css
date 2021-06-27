@@ -1,25 +1,28 @@
-.nav-bar {
-    background-color: gray;
-}
-ul {
-    display: inline-block;
-    list-style-type: none;
-    overflow: hidden;
-    padding: 0;
+body {
     margin: 0;
 }
+.nav-bar {
+    background-color: black;
+    margin-top: -16px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
 li {
-    padding: 10px;
-    align-items: center;
     float: right;
+    text-align: center;
 }
 
 li a {
+    display: block;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    font-size: 20px;
+    padding: 16px 14px;
 }
 
 li:hover {
-    background-color: black;
+    background-color: gray;
 }
